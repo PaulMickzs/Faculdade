@@ -1,0 +1,108 @@
+body{
+background-color: gray;
+font-size: 17px;
+font-family: cursive;
+
+}
+
+.format{
+    width: 200px;	
+	height: 200px;
+	float: left;
+	display: inline;
+	
+}
+
+.textformat{
+	color: black;
+        	
+    	
+}
+
+.div1{
+   border: 5px solid #008B8B;
+   overflow: auto;
+   background-color:#FAFAD2;
+}
+
+h1{
+	text-align: center;
+}
+
+
+
+.allink{
+    text-decoration: none;
+    color: black;
+	border: 5px solid #008B8B;
+	border-radius: 10px;
+	margin-left: 15px;
+	padding: 5px;
+
+}
+
+
+.allink:hover{
+
+	background-color: #FF8C00		;
+}
+
+
+
+
+
+#memoria{
+	margin-right: 25px;
+}   
+
+#processador{
+	margin-right: 50px;
+
+}
+
+#cprocessador{
+	margin-right: 25px;
+	
+}
+
+#fonte{
+	margin-right: 25px;
+	
+}
+
+
+#placadevideo{
+	margin-right: 30px;
+
+}
+
+#monitor{
+	margin-right: 30px;
+}
+
+#mouse{
+	margin-right: 15px;
+}
+
+#teclado{
+	margin-right: 30px;
+}
+
+ li{
+	list-style-type: none;	
+	color: black;
+    float: left;
+    margin-right: 40px;
+	padding: 5px;
+	border: 3px solid #008B8B;
+	
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+a:active{
+	background-color: black;
+}
