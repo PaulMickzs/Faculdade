@@ -1,0 +1,59 @@
+
+body
+{
+    background-image: url(https://http2.mlstatic.com/20-planos-de-fundo-slides-templates-powerpoint-dashboard-D_NQ_NP_226515-MLB25263466377_012017-F.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.borda{
+    font-size: 30px;
+    background-image: url(https://i.pinimg.com/originals/b2/4a/02/b24a025c0c036dc5e37235f7909f69a2.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    width: 600px;
+    height: 300px;
+    border: 10px solid black;
+    padding: 25px;
+    margin: 450px;	
+	font-family: Segoe Print;
+	text-align: center;
+}
+
+
+.instagram{
+    list-style-type: none;
+    list-style-image: url("https://64.media.tumblr.com/d204fa5c862a6efdde215192d34384fe/ee4299f923c6a78e-13/s75x75_c1/46aa9ccb94625e01c3b49c9bdadc7edc21dc43a6.pnj");
+    margin-right: 500px; 
+}
+
+.youtube{
+	
+ list-style-type: none;
+ list-style-image: url("https://64.media.tumblr.com/95c655076688464b4462a876ac0f2c23/601d8a35b225211b-bb/s75x75_c1/8207c9c2ad6e2bec8ad605b24fd4fc85fa06016e.pnj");
+ margin-right: 550px;
+}
+
+.twitter{
+ list-style-type: none;
+    list-style-image: url("https://64.media.tumblr.com/48aa913a0faf543954a00447e96ff98c/57bd546f036cc701-c6/s75x75_c1/480eecee424a6dffbbd05b3dd9121d1b8bef7a5a.pnj");
+    margin-right: 550px;	
+	
+}
+ 
+ .link1{
+    text-decoration: none;
+    color: #4180ab;
+	font-size: 20px;
+	font-family: Impact;
+	border: 3px solid #4180ab;
+	border-radius: 15px;
+	border-radius: 15px;
+	padding: 5px;
+    
+}
+
+.link1:hover{
+	background-color: white;
+}
