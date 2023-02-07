@@ -1,0 +1,560 @@
+.header{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "COURIER", 'Verdana', arial;
+    background-color:gray;
+    border: 5px solid black;
+    border-radius: 10px;
+    max-width: 30%;
+    margin:auto;
+}
+
+.botao1{
+     
+    color: black;
+    background-color: gray;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+
+}
+
+.move{
+    text-align: center;
+}
+
+.botao2{
+    padding:10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: gray ;
+    font-size: 1.5rem;
+}
+
+
+.seta{
+    width: 40px;
+    display: none;
+}
+
+
+.header1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "COURIER", 'Verdana', arial;
+    background-color: yellow ;
+    border: 5px solid black;
+    border-radius: 10px;
+    max-width: 30%;
+    margin:auto;
+}
+
+
+.botoes{
+ 
+    background-color: red;
+    font-size: 1.5rem;
+    padding:20px;
+    margin-left: 5%;
+    float: left;
+    
+}
+
+
+.header2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "COURIER", 'Verdana', arial;
+    background-color: blue;
+    border: 5px solid black;
+    border-radius: 10px;
+    max-width: 30%;
+    margin:auto;
+    color:white;
+}
+
+
+.botoes2{
+    font-size: 1.5rem;
+    padding:  15px;
+    margin-left: 5%;
+    float: left;
+    background-color: antiquewhite;
+    
+}
+
+.duvida{
+    margin-left: 70%;
+    height: 50px;
+    transform: translateY(-100%);
+    
+    
+}
+
+.pdr_img{
+
+    
+    width: 300px;
+    height: 300px;
+    display: none;
+
+}
+
+.space{
+    margin-top: 5%;
+}
+
+
+
+/* Responsividade */
+
+@media (max-width: 1340px){
+
+    .botoes2{
+        font-size: 1.5rem;
+        padding:  8px;
+        margin-left: 3.9%;
+        float: left;
+        margin-top: 3%;
+        background-color: antiquewhite;
+        
+    }
+
+}
+   
+
+@media (max-width: 1220px){
+
+    .botoes{
+ 
+        background-color: red;
+        font-size: 1.5rem;
+        padding:15px;
+        margin-left: 5%;
+        float: left;
+        
+    }
+
+    
+.botoes2{
+    font-size: 1.5rem;
+    padding:  8px;
+    margin-left: 5%;
+    float: left;
+    margin-top: 3%;
+    background-color: antiquewhite;
+    
+}
+
+
+}
+
+ 
+@media (max-width: 990px){
+
+    .botoes{
+ 
+        background-color: red;
+        font-size: 1.5rem;
+        padding:15px;
+        margin-left: 4%;
+        float: left;
+        
+    }
+
+    
+.botoes2{
+    font-size: 1.5rem;
+    padding:  8px;
+    margin-left: 4%;
+    float: left;
+    margin-top: 3%;
+    background-color: antiquewhite;
+    
+}
+
+}
+
+@media (max-width: 890px){
+
+    .botoes{
+ 
+        background-color: red;
+        font-size: 1.5rem;
+        padding:15px;
+        margin-left: 3%;
+        float: left;
+        
+    }
+
+    
+.botoes2{
+    font-size: 1.5rem;
+    padding:  8px;
+    margin-left: 2%;
+    float: left;
+    margin-top: 3%;
+    background-color: antiquewhite;
+    
+}
+
+}
+
+@media (max-width: 710px){
+
+    .botoes{
+ 
+        background-color: red;
+        font-size: 1.5rem;
+        padding:15px;
+        margin-left: 2%;
+        float: left;
+        
+    }
+
+    
+.botoes2{
+    font-size: 1.5rem;
+    padding:  8px;
+    margin-left: 1%;
+    float: left;
+    margin-top: 3%;
+    background-color: antiquewhite;
+    
+}
+
+}
+
+@media (max-width: 620px){
+
+    .botoes{
+ 
+        background-color: red;
+        font-size: 1.3rem;
+        padding: 13px;
+        margin-left: 1%;
+        float: left;
+        
+    }
+
+    
+.botoes2{
+    font-size: 1.3rem;
+    padding:  5px;
+    margin-left: 1%;
+    float: left;
+    margin-top: 1%;
+    background-color: antiquewhite;
+    
+}
+
+}
+
+@media (max-width: 485px){
+
+    .header{
+        text-align: center;
+        font-size: 2rem;
+        font-family: "COURIER", 'Verdana', arial;
+        background-color:gray;
+        border: 5px solid black;
+        border-radius: 10px;
+        max-width: 40%;
+        margin:auto;
+    }
+
+    .header2{
+        text-align: center;
+        font-size: 2rem;
+        font-family: "COURIER", 'Verdana', arial;
+        background-color: blue;
+        border: 5px solid black;
+        border-radius: 10px;
+        max-width: 40%;
+        margin:auto;
+        color:white;
+    }
+
+    .duvida{
+        margin-left: 75%;
+        height: 40px;
+        transform: translateY(-130%);
+        
+        
+    }
+
+    .botoes{
+ 
+        background-color: red;
+        font-size: 1.2rem;
+        padding: 8px;
+        margin-left: 10%;
+        float: left;
+        margin-bottom: 10px;
+        
+    }
+
+    
+   .botoes2{
+    font-size: 1.2rem;
+    padding:  2.25px;
+    margin-left: 10%;
+    float: left;
+    margin-top: 2%;
+    background-color: antiquewhite;
+
+    
+    
+}
+  .space{
+    margin-top: 22%;
+  }
+}
+
+
+@media (max-width: 410px){
+
+    .header{
+        text-align: center;
+        font-size: 2rem;
+        font-family: "COURIER", 'Verdana', arial;
+        background-color:gray;
+        border: 5px solid black;
+        border-radius: 10px;
+        max-width: 42%;
+        margin:auto;
+    }
+
+    .header2{
+        text-align: center;
+        font-size: 2rem;
+        font-family: "COURIER", 'Verdana', arial;
+        background-color: blue;
+        border: 5px solid black;
+        border-radius: 10px;
+        max-width: 39%;
+        margin:auto;
+        color:white;
+    }
+
+    .duvida{
+        margin-left: 72%;
+        height: 40px;
+        transform: translateY(-130%);
+        
+        
+    }
+
+    .botoes{
+ 
+        background-color: red;
+        font-size: 1.2rem;
+        padding: 6px;
+        margin-left: 10%;
+        margin-bottom: 10px;
+        float: left;
+        
+    }
+
+    
+   .botoes2{
+    font-size: 1.2rem;
+    padding:  2px;
+    margin-left: 10%;
+    float: left;
+    margin-top: 2%;
+    background-color: antiquewhite;
+
+    
+    
+}
+
+.space{
+    margin-top: 22%;
+}
+
+
+}
+
+
+@media (max-width: 355px){
+
+    .header{
+        text-align: center;
+        font-size: 2rem;
+        font-family: "COURIER", 'Verdana', arial;
+        background-color:gray;
+        border: 5px solid black;
+        border-radius: 10px;
+        max-width: 50%;
+        margin:auto;
+    }
+
+    .header1{
+        text-align: center;
+        font-size: 2rem;
+        font-family: "COURIER", 'Verdana', arial;
+        background-color: yellow ;
+        border: 5px solid black;
+        border-radius: 10px;
+        max-width: 35%;
+        margin:auto;
+    }
+
+    .header2{
+        text-align: center;
+        font-size: 2rem;
+        font-family: "COURIER", 'Verdana', arial;
+        background-color: blue;
+        border: 5px solid black;
+        border-radius: 10px;
+        max-width: 48%;
+        margin:auto;
+        color:white;
+    }
+
+    .duvida{
+        margin-left: 80%;
+        height: 40px;
+        transform: translateY(-130%);
+        
+        
+    }
+
+    .botoes{
+ 
+        background-color: red;
+        font-size: 1.2rem;
+        padding: 6px;
+        margin-left: 10%;
+        float: left;
+        
+    }
+
+    
+   .botoes2{
+    font-size: 1.2rem;
+    padding:  2.25px;
+    margin-left: 8%;
+    float: left;
+    margin-top: 2%;
+    background-color: antiquewhite;
+
+ 
+    
+}
+
+.space{
+    margin-top: 20%;
+}
+
+}
+
+
+@media (max-width: 299px){
+
+    .header{
+        text-align: center;
+        font-size: 2rem;
+        font-family: "COURIER", 'Verdana', arial;
+        background-color:gray;
+        border: 5px solid black;
+        border-radius: 10px;
+        max-width: 60%;
+        margin:auto;
+    }
+
+    .header1{
+        text-align: center;
+        font-size: 2rem;
+        font-family: "COURIER", 'Verdana', arial;
+        background-color: yellow ;
+        border: 5px solid black;
+        border-radius: 10px;
+        max-width: 40%;
+        margin:auto;
+    }
+
+    .header2{
+        text-align: center;
+        font-size: 2rem;
+        font-family: "COURIER", 'Verdana', arial;
+        background-color: blue;
+        border: 5px solid black;
+        border-radius: 10px;
+        max-width: 50%;
+        margin:auto;
+        color:white;
+    }
+
+    .duvida{
+        margin-left: 85%;
+        height: 40px;
+        transform: translateY(-130%);
+        
+        
+    }
+
+    .botoes{
+ 
+        background-color: red;
+        font-size: 1.2rem;
+        padding: 5px;
+        margin-bottom: 6px;
+        margin-left: 15%;
+        float: left;
+        
+    }
+
+    
+   .botoes2{
+    font-size: 1.2rem;
+    padding:  2.25px;
+    margin-left: 6%;
+    float: left;
+    margin-top: 2%;
+    background-color: antiquewhite;
+
+ 
+    
+}
+
+.space{
+    margin-top: 30%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

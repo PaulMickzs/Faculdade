@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <title>JavaScript</title>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="styleindex.css">
+     <link rel="shortcut icon" href="javascript.png" type="image/png">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+      <script src="script.js"></script>
+        
+       <h1 class="header"> Esconde-Esconde </h1>
+       
+       <!-- Imagem de dúvida 1 --> 
+       <a href="">
+       <img src="https://i.imgur.com/5st9n5u.png" alt="duvida" class="duvida" onclick="duvida1()">
+         </a>
+      
+     
+      <div class="move">
+       <button id="btn2" class="botao2">👻</button>  
+        <a href="index.html">
+       <img src="https://i.imgur.com/oRpVugt.png" class="seta" alt="Voltar" id="btn3">   
+       </a>
+      </div>
+      
+       <div class="move">
+            <br> 
+            <button id="btn1" class="botao1" onclick="fantasma()">Clique aqui!</button>
+      </div>
+     
+      
+      <hr>
+
+      <h1 class="header1"> Cores  </h1>
+          
+      <!-- Imagem de dúvida 2 --> 
+       <a href="">
+      <img src="https://i.imgur.com/5st9n5u.png" alt="duvida" class="duvida" onclick="duvida2()">
+          </a>
+       
+        <br> <br>
+        
+   
+       <button id="primeiro" onmouseover="azul()"    class="botoes">1</button>
+       <button id="segundo"  onmouseover="verde()"      class="botoes">2</button>
+       <button id="terceiro" onmouseover="rosa()"      class="botoes">3</button>
+       <button id="quarto"   onmouseover="amarelo()"     class="botoes">4</button>
+       <button id="quinto"   onmouseover="laranja()"     class="botoes">5</button>
+       <button id="sexto"    onmouseover="marrom()"    class="botoes">6</button>
+       <button id="setimo"   onmouseover="roxo()"       class="botoes">7</button>
+       <button id="oitavo"   onmouseover="violeta()"   class="botoes">8</button>
+       <button id="nono"     onmouseover="branco()"     class="botoes">9</button>
+       <button id="decimo"   onmouseover="ciano()"     class="botoes">10</button>
+   
+
+      
+      
+
+
+       <div class="space"></div>
+      
+       
+       
+  
+      
+    <br> <br> 
+    <hr>
+     
+     
+     <h1 class="header2"> Animais</h1>
+     
+     <!-- Imagem de dúvida 3 --> 
+     <a href="">
+     <img src="https://i.imgur.com/5st9n5u.png" alt="duvida" class="duvida" onclick="duvida3()">
+     </a>
+
+    
+     <br> <br>
+       
+     <!--Cachorro-->
+     <button id="cachorro" onclick="cachorro()"  class="botoes2">  🐶  </button>  
+     <div class="move">
+     <img src="https://th.bing.com/th/id/R.3c962f05d50bfa477cc084ccf5b19d43?rik=CC1w4JeI7QCZFw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2fd%2fd%2f382482.jpg&ehk=rU7YkZYq%2fYuS7AJdwmd2vs8EurIR%2fyQJP7wVxYDP3EI%3d&risl=&pid=ImgRaw&r=0"  class="pdr_img" alt="Cachorro" id="img_cachorro">   
+     </div>
+
+       <!--Gato-->
+       <button id="gato" onclick="gato()"    class="botoes2">  🐱  </button>
+       <div class="move">
+          <img src="https://th.bing.com/th/id/R.5acf55c281452231c42e6436d1b84a10?rik=dzxM92Zlr%2bGzxQ&riu=http%3a%2f%2fblog.geracaopet.com.br%2fwp-content%2fuploads%2f2016%2f02%2fgato-comportamento2.jpg&ehk=brGQgsfTyN8l027QL%2b0H4fNS2ODYc9IS%2fYWR%2bY3DJjA%3d&risl=&pid=ImgRaw&r=0"  class="pdr_img" alt="Gato" id="img_gato">   
+          </div>
+
+      <!--Coelho-->
+       <button id="coelho" onclick="coelho()"   class="botoes2">  🐰  </button>
+       <div class="move">
+       <img src="https://th.bing.com/th/id/R.1565bb096fd9d0bc4ae878060d8a4e95?rik=LAoZgSQdFzV99w&riu=http%3a%2f%2fwww.hdwallpapersfreedownload.com%2fuploads%2flarge%2fanimals%2frabbit-new-wallpapers.jpg&ehk=4gZunr9JOKe%2b27WfkBnCkK6ZK2hdlakuh2yA2GfOLhw%3d&risl=&pid=ImgRaw&r=0"  class="pdr_img" alt="Coelho" id="img_coelho">
+     </div>
+      
+       <!--Hamster-->
+       <button onclick="hamster()" id="hamster"  class="botoes2">  🐹  </button>
+       <div class="move">
+          <img src="https://th.bing.com/th/id/R.75238a0b06b3234afc6f047772771c30?rik=QV%2brBgx9mqyVzA&pid=ImgRaw&r=0"  class="pdr_img" alt="hamster" id="img_hamster">
+        </div>
+       
+       <!--Panda-->
+       <button id="panda"  onclick="panda()"  class="botoes2">  🐼  </button>
+       <div class="move">
+          <img src="https://th.bing.com/th/id/R.60ebd649a6ea47bbe8f3328c417fd471?rik=uP9JtEOWd7njOg&pid=ImgRaw&r=0"  class="pdr_img" alt="panda" id="img_panda">
+        </div>
+       
+       <!--Pinguim-->
+       <button onclick="pinguim()" id="pinguim"  class="botoes2">  🐧  </button>
+       <div class="move">
+          <img src="https://th.bing.com/th/id/R.4c833c73d02466fdcdfa235e15174cbe?rik=Drec%2bB%2fyPHVUjA&pid=ImgRaw&r=0"  class="pdr_img" alt="pinguim" id="img_pinguim">
+        </div>
+    
+       <!--Cavalo-->
+       <button id="cavalo" onclick="cavalo()"   class="botoes2">  🐴  </button>
+       <div class="move">
+          <img src="https://th.bing.com/th/id/R.b24390887d7581fdecdd89834674aaec?rik=FMiE2lMU9H%2f3bg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2f7%2f6%2f396846.jpg&ehk=PTp46JfGnMmD226ODFXr6oxoo8TkgOyZsHJQTejbXuo%3d&risl=&pid=ImgRaw&r=0"  class="pdr_img" alt="cavalo" id="img_cavalo">
+        </div>
+      
+      <!--Pássaro-->
+       <button  id="passaro" onclick="passaro()"  class="botoes2">  🐦  </button>
+      <div class="move">
+         <img src="https://th.bing.com/th/id/OIP.Ihls9BEgvMIJXzNznEgkUwHaFB?pid=ImgDet&rs=1" class="pdr_img" alt="passáro" id="img_passaro">
+      </div>
+     
+      <!--Peixe-->
+       <button id="peixe" onclick="peixe()"    class="botoes2">  🐠  </button>
+       <div class="move">
+         <img src="https://th.bing.com/th/id/R.8ccb834f0e859f7b6d8e3c207d2a79c9?rik=vrK8T3xY0TGe9g&riu=http%3a%2f%2fi.mlcdn.com.br%2fportaldalu%2ffotosconteudo%2f76189_00.jpg&ehk=vA9WTzXtoyTNkm%2bzyWpD2%2bP1kTrbHhHpstE19uSYph8%3d&risl=&pid=ImgRaw&r=0" class="pdr_img" alt="peixe" id="img_peixe">
+       </div>
+       
+       <!--Galinha-->
+       <button id="galinha"  onclick="galinha()" class="botoes2">  🐔  </button>
+       <div class="move">
+        <img src="https://th.bing.com/th/id/OIP.cBtqd_jbJtBbbW9B6FtvbQHaHa?pid=ImgDet&rs=1" class="pdr_img" alt="galinha" id="img_galinha">
+      </div>
+       
+       <!--Botão Voltar -- parte dos animais-->
+       <div class="move">
+         <a href="index.html">
+          <img src="https://i.imgur.com/oRpVugt.png" class="seta" alt="Voltar" id="btn4">   
+          </a>
+          </div>
+
+</body>
+</html>
